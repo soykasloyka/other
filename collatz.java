@@ -5,7 +5,8 @@ class collatz {
 
         int a = scanner.nextInt();
         System.out.print(a + " ");
-
+        scanner.close();
+        
         while (a != 1) {
             if (a % 2 == 0) {
                 a = a / 2;
