@@ -1,4 +1,4 @@
-public class Building {
+public class building {
     private String type;
 
     public void initialize(String type) {
@@ -6,7 +6,7 @@ public class Building {
     }
 
     public static void main(String[] args) {
-        Building building = new Building();
+        building building = new building();
         building.initialize("Барбершоп");
     }
 
